@@ -1,10 +1,15 @@
-import './App.css';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import { Products } from "./pages/products/products";
+import { Product } from "./pages/product/product";
+import { Cart } from "./pages/cart/cart";
+import { NotFound } from "./pages/not-found/not-found";
 function App() {
   return (
-    <div className="App">
-      Hello World
-    </div>
-  );
+    <>
+      
+    </>
+  )
 }
 
 export default App;
